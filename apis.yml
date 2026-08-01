@@ -1,8 +1,24 @@
 aid: recordgram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recordgram.png
 name: Recordgram
-description: Recordgram is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Recordgram is a mobile music-creation platform, now operating as Cre8tor (cre8tor.app),
+  that lets aspiring artists record songs, write lyrics, access a library of beats, and collaborate
+  with professional producers directly from a smartphone. The company won the TechCrunch Disrupt SF
+  2017 Startup Battlefield and is backed by Lightspeed Venture Partners. It is a consumer iOS/Android
+  application with no public developer API, documentation, SDK, or developer portal surfaced at this
+  time. This profile was surfaced as a portfolio company of Lightspeed Venture Partners and added to
+  the API Evangelist network; enrichment confirmed the consumer-app nature and the rebrand to Cre8tor.
 url: https://raw.githubusercontent.com/api-evangelist/recordgram/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Music Creation
+- Audio
+- Recording
+- Media and Entertainment
+- Consumer App
+- Mobile
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/recordgram-domain-security.yml
+- type: Website
+  url: https://cre8tor.app/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
